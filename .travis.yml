@@ -12,6 +12,10 @@ matrix:
 notifications:
     email: false
 
+branches:
+  only:
+  - ras/pkg1
+
 # use default travis script to test
 # script:
 #  - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
